@@ -25,6 +25,10 @@ app.get('/pros.html', (req, res) => {
   res.sendFile(__dirname + '/pros.html')
 });
 
+app.get('/ld.html', (req, res) => {  
+  res.sendFile(__dirname + '/ld.html')
+});
+
 app.listen(3000, () => {
   console.log("server is running at http://localhost:3000")
 });
