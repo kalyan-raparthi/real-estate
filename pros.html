@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROPERTY LISTINGS</title>
+    <style>
+        body {
+            background-image: url("https://preview.redd.it/3840x2160-colorful-abstract-background-v0-8j16f7e41qb91.jpg?auto=webp&s=07e2cc0ceb82b965e1b19e1311c093113413711e");
+            background-position: center;
+            background-size:auto;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6d92b3f9;
+            color: #333;
+        }
+        header {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 1dvh;
+            width: 100%;
+            
+        }
+        header h1 {
+            margin: 0;
+        }
+        h3 {
+            color: #fff;
+        }
+        a {
+            padding: 2dvb;
+            height: 105% ;
+        }
+        .container {
+            height: 10dvh;
+            max-width: 2200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .property-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .property-card {
+            background: rgba(255, 255, 255, 0.203);
+            backdrop-filter: blur(20px);
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .property-card:hover {
+            transform: translateY(-5px);
+        }
+        .property-image {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        .property-details {
+            padding: 15px;
+        }
+        .property-details h3 {
+            margin: 0 0 10px;
+            font-size: 1.7rem;
+        }
+        .property-details p {
+            margin: 0 0 10px;
+            color: #ffffff;
+        }
+        .property-details .price {
+            font-size: 1.7rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        footer {
+        position: absolute;
+        bottom: 0;
+        background-color: #000000;
+        margin-top: 7dvw;
+        text-align: center;
+        padding: 0.5%;
+        color: #fff;
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>X_REAL_ESTATE</h1>
+    </header>
+
+    <div class="container">
+        <div class="property-list">
+            <!-- Property 1 -->
+            <a href="https://via.placeholder.com/800x600?text=House+1" target="_blank" class="property-card">
+                <div class="property-image" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F016%2F017%2F055%2Foriginal%2Fhome-transparent-background-free-png.png&f=1&nofb=1&ipt=a2118d5bf66774c12dc072fe1289cb8dbf344e6baae17042c7587e8e56662300&ipo=images');"></div>
+                <div class="property-details">
+                    <h3>3_BHK_HOUSE</h3>
+                    <p class="price">1,200,000</p>
+                </div>
+            </a>
+            
+            <!-- Property 2 -->
+            <a href="https://via.placeholder.com/800x600?text=Land+1" target="_blank" class="property-card">
+                <div class="property-image" style="background-image: url('https://images1.loopnet.com/i2/r5gAvBiHANz4L3_wQ9Bc3RE03yHxOCbxyBUnUw1bd4c/110/4000-FM-3417-Mount-Pleasant-TX-Building-Photo-1-Large.png');"></div>
+                <div class="property-details">
+                    <h3>LAND_PLOT_2</h3>
+                    <p class="price">500,000</p>
+                </div>
+            </a>
+            
+            <!-- Property 3 -->
+            <a href="https://via.placeholder.com/800x600?text=House+2" target="_blank" class="property-card">
+                <div class="property-image" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F016%2F017%2F055%2Foriginal%2Fhome-transparent-background-free-png.png&f=1&nofb=1&ipt=a2118d5bf66774c12dc072fe1289cb8dbf344e6baae17042c7587e8e56662300&ipo=images');"></div>
+                <div class="property-details">
+                    <h3>X2_VILLA</h3>
+                    <p class="price">2,800,000</p>
+                </div>
+            </a>
+            
+            <!-- Property 4 -->
+            <a href="https://via.placeholder.com/800x600?text=Land+2" target="_blank" class="property-card">
+                <div class="property-image" style="background-image: url('https://images1.loopnet.com/i2/r5gAvBiHANz4L3_wQ9Bc3RE03yHxOCbxyBUnUw1bd4c/110/4000-FM-3417-Mount-Pleasant-TX-Building-Photo-1-Large.png');"></div>
+                <div class="property-details">
+                    <h3>X2_Land</h3>
+                    <p class="price">750,000</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>By Spandhana [2023A51320]</p>
+    </footer>
+</body>
+</html>
