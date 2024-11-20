@@ -12,6 +12,19 @@ app.get('/style.css', (req, res) => {
     res.sendFile(__dirname + '/style.css')
 });
 
+app.get('/cal.html', (req, res) => {  
+  res.sendFile(__dirname + '/cal.html')
+});
+
+
+app.get('/maps.html', (req, res) => {  
+  res.sendFile(__dirname + '/maps.html')
+});
+
+app.get('/pro.html', (req, res) => {  
+  res.sendFile(__dirname + '/pro.html')
+});
+
 app.listen(3000, () => {
   console.log("server is running at http://localhost:3000")
 });
