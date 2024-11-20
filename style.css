@@ -85,7 +85,7 @@ header {
 .d21 {
     background-color: rgba(121, 136, 198, 0.338);
     width: 32dvw;
-    height: 22dvb;
+    height: 26dvb;
     padding: 0dvw 0dvw 0 1dvh;
     margin-top: 1dvh;
     display: flex;
@@ -99,7 +99,7 @@ header {
     margin-top: 1dvh;
     display: flex;
     flex-direction: column;
-    height: 22dvb;
+    height: 26dvb;
 }
 
 .d3 {
