@@ -21,8 +21,8 @@ app.get('/maps.html', (req, res) => {
   res.sendFile(__dirname + '/maps.html')
 });
 
-app.get('/pro.html', (req, res) => {  
-  res.sendFile(__dirname + '/pro.html')
+app.get('/pros.html', (req, res) => {  
+  res.sendFile(__dirname + '/pros.html')
 });
 
 app.listen(3000, () => {
