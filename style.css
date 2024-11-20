@@ -42,8 +42,8 @@ header {
     font-size: 1.5dvw;
     width: 12dvw;
     height: 1.5dvb;
-    background-color: #6e6e6e1d;
-    color: #0026f9;
+    background-color: #000000;
+    color: #b3beff;
     border-style:double;
     border-width: 1px;
     border-color: #000000;
@@ -62,6 +62,9 @@ header {
     flex-direction: column;
 }
 .d12 {
+  p {
+    font-size: larger;
+  }
     background-color: rgba(182, 182, 182, 0.615);
     width: 48%;
     height: 19dvb;
@@ -80,7 +83,7 @@ header {
 }
 
 .d21 {
-    background-color: rgba(182, 182, 182, 0.615);
+    background-color: rgba(121, 136, 198, 0.338);
     width: 32dvw;
     height: 22dvb;
     padding: 0dvw 0dvw 0 1dvh;
@@ -109,7 +112,7 @@ header {
     font-size: xx-large;
 }
 .d3link {
-    color: red;
+    color: rgb(255, 65, 65);
     font-size: 4dvh;
 }
 
