@@ -25,7 +25,7 @@ header {
   }
 
   h2 {
-    font-size: 2dvw;
+    font-size: 2.3dvw;
     font-weight: 100;
     margin-bottom: 10px;
   }
@@ -103,16 +103,23 @@ header {
 }
 
 .d3 {
-    background-image: url('img_1.jpg');
+    background-image: url('https://3dawards.cgarchitect.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaWhDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--02008f40de31d73faea35408a5f4c85c7a6223a9/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2Q25OaGRtVnlld1k2REhGMVlXeHBkSGxwWHpvVWNtVnphWHBsWDNSdlgyeHBiV2wwV3dkcEFxZ0NNQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8f40424919c61dcb2321b9ebd78759b909851d15/submission-35064.jpg');
     margin-top: 1dvh;
     margin-left: 1dvh;
     width: 100%;
     padding: 2dvw;
     object-fit: fit;
     font-size: xx-large;
-}
+    h2 {
+      width: fit-content;
+      padding: 1dvw;
+      background-color: #ffffff5b;
+      color: rgb(0, 0, 0);
+      backdrop-filter: blur(10px);
+    }
+  }
 .d3link {
-    color: rgb(255, 65, 65);
+    color: rgb(255, 0, 0);
     font-size: 4dvh;
 }
 
